@@ -29,12 +29,33 @@
 		<legend>Your Information</legend>
 
 		<!-- NAME -->
-		<p><label for="in_Name">Your Name:</label>
-		<input type="text" id="in_Name" name="f_Name" /><span id="nameError">Please enter your name</span></p> 
+		<p><label for="in_Name">Username:</label>
+		<input placeholder="username" type="text" id="in_Name" name="f_Name" /><span id="nameError">Please enter your name</span></p> 
+		<p>Username must be alphanumeric and contan 5 - 12 characters</p>
+
+		<!-- email -->
+		<label for="email">Email</label>
+		<input type="email" name="email" placeholder="email" id="email">
+		<p>Email must be a valid address, e.g. me@mydomain.com</p>
 
 		<!-- CUSTOMER ID -->
 		<p><label for="in_Id">Customer ID#:</label>
 		<input type="text" id="in_Id" name="f_Id" />&nbsp;&nbsp;(e.g. 987654)<span id="idError">Enter your id</span></p>
+
+		<!-- Password -->
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password">
+		<p>Password must be alphanumeric and be 8 - 20 characters</p>
+
+		<!-- Telephone -->
+		<label for="phone">Telephone</label>
+		<input type="text" id="phone" name="phone" placeholder="Telephone">
+		<p>Telephonemust be a valid Maple Leaf telephone number</p>
+
+		<!-- Slug -->
+		<label for="slug">Slug</label>
+		<input type="text" name="slug" id="slug" placeholder="Profile slug">
+		<p>Slug must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters</p>
 
 		<!-- POSTAL CODE -->
 		<p><label for="in_pc">Postal Code:</label>
