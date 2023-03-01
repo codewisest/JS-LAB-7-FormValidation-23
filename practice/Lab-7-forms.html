@@ -4,7 +4,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Forms</title>
 	<style>#thanks_msg{display: none;}</style>
-	<script src="Lab-7-forms.js"></script> 
+	<script src="Lab-7-forms.js"></script>
+	<link rel="stylesheet" href="./main.css">
 </head>
 <body>
 <h1>Shopping Cart</h1>
@@ -29,8 +30,9 @@
 		<legend>Your Information</legend>
 
 		<!-- NAME -->
-		<p><label for="in_Name">Username:</label>
-		<input placeholder="username" type="text" id="in_Name" name="f_Name" /><span id="nameError">Please enter your name</span></p> 
+		<label for="in_Name">Username:</label>
+		<span id="nameError">Please enter your name</span>
+		<input placeholder="username" type="text" id="in_Name" name="f_Name" /> 
 		<p>Username must be alphanumeric and contan 5 - 12 characters</p>
 
 		<!-- email -->
